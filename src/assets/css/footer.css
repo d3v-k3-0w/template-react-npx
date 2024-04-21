@@ -1,0 +1,48 @@
+.footer {
+	position: fixed;
+	left: 16px;
+	bottom: 16px;
+	text-align: left;
+	background: rgba(0, 0, 0, 0.7);
+	padding: 8px 24px;
+	border-radius: 32px;
+	opacity: 0.95;
+	backdrop-filter: blur(8px);
+}
+
+.footer span {
+	font-size: 14px;
+	color: #09f;
+	opacity: 0.8;
+}
+
+.footer h4,
+.footer h5 {
+	margin: 0;
+	display: flex;
+	padding: 2px, 0;
+}
+
+.App-logo {
+	height: 10vmin;
+	pointer-events: none;
+	animation: App-logo-spin infinite 20s linear; /* Aquí se aplica la animación */
+}
+
+/* prefers-reduced-motion -> la opción de reducción de movimiento es una característica de accesibilidad que ayuda
+ a las personas que son sensibles a las animaciones y los movimientos en la pantalla. en produccion es importante respetar esto */
+
+/* @media (prefers-reduced-motion: no-preference) {
+	.App-logo {
+		animation: App-logo-spin infinite 20s linear;
+	}
+} */
+
+@keyframes App-logo-spin {
+	from {
+		transform: rotate(0deg);
+	}
+	to {
+		transform: rotate(360deg);
+	}
+}
